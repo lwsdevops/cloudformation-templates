@@ -1,7 +1,7 @@
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
   
-  "Description" : "AWS CloudFormation Sample Template elasticsearch with s3 bucket backup: Simple test template that will create a small elasticsearch node with a s3 bucket gateway.",
+  "Description" : "AWS CloudFormation Sample Template: Simple test template that will create a scalable ElasticSearch cluster with ec2 discovery behind an ELB.  You must have permissions to create IAM roles to use this template",
   
   "Parameters" : {
       
